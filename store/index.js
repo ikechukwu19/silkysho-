@@ -47,7 +47,7 @@ export const state = () => ({
   total: 0,
   quantity: 0,
   amount: 0,
-  paid: false,
+  paid: true,
 });
 
 export const mutations = {

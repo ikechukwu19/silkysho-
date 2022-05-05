@@ -39,7 +39,7 @@
     <button
       class="px-[20px] py-[8px] bg-[#248eef]  rounded-md w-[20%] hover:bg-[#248ebf] inline-block lg:block w-[35%]"
     >
-      PAY {{ amount }} 7888798
+      PAY {{ amount }} 
     </button>
   </form>
 </template>

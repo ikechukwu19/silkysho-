@@ -1,6 +1,6 @@
 <template>
   <div
-    class="mt-20 lg:mx-8 w-full mb-12 flex flex-col items-center justify-center overflow-hidden"
+    class="mt-20 lg:mx-8 w-full mb-12 flex flex-col items-center justify-center overflow-hidden h-[100vh]"
   >
     <div
       class="w-[40%] h-[40%] flex flex-col items-center justify-center"
@@ -19,7 +19,7 @@
         </button>
       </NuxtLink>
     </div>
-    <table class="table-auto lg:w-[80%] h-3/6 mx-auto w-[90%] " v-else>
+    <table class="table-auto lg:w-[80%] h-3/6 mx-auto w-[90%] h-[100vh]" v-else>
       <thead class="font-bold text-xl border text-left">
         <tr>
           <th>Name</th>

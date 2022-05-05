@@ -1,9 +1,9 @@
 <template>
   <form
     @submit.prevent="initializePaystack"
-    class="container mt-20 lg:mx-auto mb-12 flex flex-col items-center w-full"
+    class="container mt-20 lg:mx-auto mb-12 flex flex-col items-center w-[90%] h-[100vh] lg:w-full"
   >
-    <div class="flex flex-col w-[50%] mb-[8px]">
+    <div class="flex flex-col lg:w-[50%] mb-[8px] w-full  lg:mx-0">
       <label for="name">Name</label>
       <input
         type="text"
@@ -14,7 +14,7 @@
         required
       />
     </div>
-    <div class="flex flex-col w-[50%] mb-[8px]">
+    <div class="flex flex-col lg:w-[50%] mb-[8px] w-full">
       <label for="email">Email</label>
       <input
         type="email"
@@ -25,7 +25,7 @@
         required
       />
     </div>
-    <div class="flex flex-col w-[50%] mb-[8px]">
+    <div class="flex flex-col lg:w-[50%] mb-[8px] w-full">
       <label for="textarea">Shipping address</label>
       <textarea
         id="textarea"
@@ -37,9 +37,9 @@
       </textarea>
     </div>
     <button
-      class="px-[20px] py-[8px] bg-[#248eef] flex items-center justify-center rounded-md w-[20%] hover:bg-[#248ebf]"
+      class="px-[20px] py-[8px] bg-[#248eef]  rounded-md w-[20%] hover:bg-[#248ebf] inline-block lg:block w-[35%]"
     >
-      PAY {{ amount }}
+      PAY {{ amount }} 7888798
     </button>
   </form>
 </template>

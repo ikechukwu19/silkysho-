@@ -4,7 +4,7 @@
       class="mt-56 lg:mx-8 grid grid-cols-1 gap-4 gap-y-11 mb-40 lg:grid-cols-3 md:grid-cols-2"
     >
       <div
-        class="h-[416px] w-[272px] relative rounded-md shadow-md sm:hidden  lg:block"
+        class="lg:h-[416px] lg:w-[272px] relative rounded-md shadow-md sm:hidden  lg:block w-[400px]  mb-[20px]"
         v-for="(product, index) in products"
         :key="index"
       >

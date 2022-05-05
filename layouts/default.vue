@@ -22,6 +22,11 @@ export default {
           type: "text/css",
           href: "https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css",
         },
+        {
+          rel: "stylesheet",
+          type: "text/css",
+          href: "https://fonts.googleapis.com/css2?family=Oswald:wght@200;500;600;700&display=swap",
+        },
       ],
       meta: [
         {
